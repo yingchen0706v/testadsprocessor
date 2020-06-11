@@ -17,7 +17,7 @@ import (
 
 func main() {
 
-	conf, err := ini.Load("/Users/ying.chen/Downloads/testutil/config.ini")
+	conf, err := ini.Load("config.ini")
 	if err != nil {
 		panic(err)
 	}
