@@ -1,0 +1,16 @@
+hash: de8bb53cb59e91ee785306339c9225183740d0ac37b589b4dfa105a0ab13b83a
+updated: 2020-06-11T13:53:29.501307+08:00
+imports:
+- name: github.com/gookit/ini
+  version: b29faf93149aa2b0010ef2046f4eeb06fee580a1
+  subpackages:
+  - v2
+- name: github.com/tidwall/gjson
+  version: f042915ca17de35980544c91ab2c8ceb73b682f2
+- name: github.com/tidwall/match
+  version: 33827db735fff6510490d69a8622612558a557ed
+- name: github.com/tidwall/pretty
+  version: b2475501f89994f7ea30b3c94ba86b49079961fe
+- name: gopkg.in/ini.v1
+  version: 1fc6efb6f20ef065ae00baf7f4fa7722cad0ec34
+testImports: []

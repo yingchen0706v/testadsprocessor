@@ -1,0 +1,10 @@
+package: github.com/yingchen0706v/testadsprocessor
+import:
+- package: github.com/tidwall/gjson
+  version: v1.6.0
+- package: github.com/gookit/ini
+  version: v2.0.4
+  subpackages:
+  - v2
+- package: gopkg.in/ini.v1
+  version: v1.57.0

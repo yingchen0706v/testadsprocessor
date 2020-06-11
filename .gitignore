@@ -1,0 +1,26 @@
+# IDE Miscellany
+.idea
+*.iml
+*.sublime-*
+.DS_Store
+
+# Project Tech Stack Specific
+# -- Glide Dependency tool
+.glide
+# -- Vendoring
+vendor
+# -- Temporary build
+./jaeger
+_pprof
+*.svg
+*.prof
+_out
+*.out
+*.test
+*_easyjson.go
+*_easyjson.go.tmp
+easyjson-bootstrap*
+*.mmdb
+# -- Organizational
+!Dockerfile.*
+*~
