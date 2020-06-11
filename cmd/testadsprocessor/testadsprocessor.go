@@ -28,7 +28,7 @@ func main() {
 	newRoot := path.Join(path.Dir(rootPath) , newRootDir)
 	fmt.Printf("Begin processing, target folder: %s\n", newRoot)
 	if _, err:= os.Stat(newRoot); !os.IsNotExist(err) {
-		fmt.Printf("Target folder exists, please backup, clear and retry!")
+		fmt.Printf("Target folder exists, please backup, clear and retry!\n")
 		return
 	}
 
